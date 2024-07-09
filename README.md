@@ -1,8 +1,8 @@
-# ETH-AVAX-Intermediate-Project2
+# ETH-AVAX-Intermediate-Project2 from Metacrafters
 
 Welcome to the ETH-AVAX Intermediate Project 2! This project showcases an Ethereum-based ATM system implemented with a Solidity smart contract and a React frontend that interacts with the contract via MetaMask. The ATM system allows users to deposit and withdraw Ether, check balances, and set a withdrawal limit. The React frontend provides a seamless user interface to perform these operations and manage the account.
 
-## Description
+# Description
 
 This Smart Contract contract implements a basic ATM system with functionalities including depositing and withdrawing funds, setting a withdrawal limit, and maintaining a transaction history. The contract owner (admin) has exclusive rights to perform deposits, withdrawals, and set withdrawal limits. The project also includes a React frontend to interact with the smart contract, allowing users to view their balance, transaction history, and perform deposit and withdrawal operations.
 
