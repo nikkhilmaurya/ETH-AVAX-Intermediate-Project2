@@ -87,7 +87,7 @@ After cloning the github, you will be required to do the following to get the co
 Typically at http://localhost:3000/
 
 
-# Connecting to MetaMask
+## Connecting to MetaMask
 
 1. Make sure MetaMask is installed in your browser.
 2. Now select Add network and select network manually by providing the chain id and network url after compiling the deployment script.
