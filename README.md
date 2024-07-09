@@ -62,7 +62,7 @@ Before you begin, ensure you have met the following requirements:
    
 ## Executing Starter Next/Hardhat Project
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+After cloning the github, you will be required to do the following to get the code running on your computer.
 
 1. Inside the project directory, in the terminal type:
    ```
