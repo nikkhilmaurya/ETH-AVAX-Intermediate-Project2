@@ -1,13 +1,12 @@
 # ETH-AVAX-Intermediate-Project2
 
 Welcome to the ETH-AVAX Intermediate Project 2! This project showcases an Ethereum-based ATM system implemented with a Solidity smart contract and a React frontend that interacts with the contract via MetaMask. The ATM system allows users to deposit and withdraw Ether, check balances, and set a withdrawal limit. The React frontend provides a seamless user interface to perform these operations and manage the account.
-This Solidity program includes a simple contract which provides an implementation of an ATM using Ethereum and Solidity. The smart contract allows the contract owner (admin) to deposit, withdraw, set a withdrawal limit, and track transaction history. The frontend interface is implemented in React, enabling users to interact with the smart contract via MetaMask.
 
 ## Description
 
 This Smart Contract contract implements a basic ATM system with functionalities including depositing and withdrawing funds, setting a withdrawal limit, and maintaining a transaction history. The contract owner (admin) has exclusive rights to perform deposits, withdrawals, and set withdrawal limits. The project also includes a React frontend to interact with the smart contract, allowing users to view their balance, transaction history, and perform deposit and withdrawal operations.
 
-## Contract (Solidity File)
+## Smart Contract (Assessment.sol Solidity File)
 
 The Solidity contract, `Assessment`, defines an ATM system with the following features:
 
@@ -91,15 +90,18 @@ Typically at http://localhost:3000/
 # Connecting to MetaMask
 
 1. Make sure MetaMask is installed in your browser.
-2. Switch MetaMask to the local network.
-3. When prompted, connect MetaMask to the application by clicking the "Please connect your MetaMask wallet" button.
+2. Now select Add network and select network manually by providing the chain id and network url after compiling the deployment script.
+3. Switch MetaMask to the local network.
+4. When prompted, connect MetaMask to the application by clicking the "Please connect your MetaMask wallet" button.
    
-# Help
+## Help
 
-1. Ensure you have installed all dependencies by running npm install.
-2. Check if the Hardhat node is running using npx hardhat node.
-3. Make sure you have deployed the contract using npx hardhat run --network localhost scripts/deploy.js.
-4. Verify that your MetaMask is connected to the correct network and account.
+1. **Dependencies**: Ensure you have installed all necessary dependencies by running `npm install` in the project directory.
+2. **Hardhat Node**: Verify that the Hardhat node is running by using the command `npx hardhat node`. This should be done in a separate terminal.
+3. **Contract Deployment**: Ensure that the contract has been deployed using the command `npx hardhat run --network localhost scripts/deploy.js`. This should be executed in another separate terminal.
+4. **MetaMask Connection**: Confirm that your MetaMask wallet is connected to the correct network and account. You can do this by checking the network settings in MetaMask and ensuring it matches your local network configuration.
+
+If you encounter any issues, make sure to follow the steps carefully and double-check your configurations. For additional support, consider referring to the official documentation for Hardhat and MetaMask.
 
 ## Authors
 
